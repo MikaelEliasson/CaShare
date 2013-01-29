@@ -7,5 +7,6 @@ namespace CaShare.ViewModels
 {
     public class HomeViewModel
     {
+
     }
 }

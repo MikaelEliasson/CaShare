@@ -51,6 +51,7 @@
     <Compile Include="Context.cs" />
     <Compile Include="DB.cs" />
     <Compile Include="Infrastructure\Profiler.cs" />
+    <Compile Include="Infrastructure\QueryExtensions.cs" />
     <Compile Include="Model\Absence.cs" />
     <Compile Include="Model\Category.cs" />
     <Compile Include="Model\Expense.cs" />

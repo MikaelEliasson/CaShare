@@ -11,14 +11,12 @@ namespace CaShare.Core.Model
         public Guid Id { get; set; }
         public string Email { get; set; }
 
-        public byte[] Code { get; set; }
+        public string Code { get; set; }
 
         public Guid? InviteeId { get; set; }
         public User Invitee { get; set; }
 
-
-
-        public Guid InstanceId { get; set; }
+        public int InstanceId { get; set; }
         public Instance Instance { get; set; }
 
 
